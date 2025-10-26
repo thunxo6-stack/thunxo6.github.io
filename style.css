@@ -30,7 +30,14 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  transition: color 0.3s; /* ทำให้สีเปลี่ยนอย่างนุ่มนวล */
 }
+
+/* เปลี่ยนสีเมื่อเอาเมาส์ชี้ */
+nav ul li a:hover {
+  color: #ffcc00; /* ใส่สีที่ต้องการ เช่น สีเหลือง */
+}
+
 
 
 
@@ -390,6 +397,7 @@ section {
   border: 2px solid ba;
   border-radius: 10px; /* ใส่มุมโค้งถ้าต้องการ */
 }
+
 
 
 
